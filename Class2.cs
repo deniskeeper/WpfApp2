@@ -20,7 +20,7 @@ namespace WpfApp2
             Random rand = new Random();
             for (int i = 0; i < n; i++)
             {
-                numbers.Add(rand.Next(0, 100));
+                numbers.Add(rand.Next(0, 100));//комм
             }
         }
 
